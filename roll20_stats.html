@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Generic - Editorial by HTML5 UP</title>
+		<title>Roll20 Stats Parser</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -22,44 +22,47 @@
 
 							<!-- Header -->
 							<header id="header">
-								<a href="index.html" class="logo"><strong>Portfolio</strong><a/>
+								<a href="index.html" class="logo"><strong>Portfolio</strong></a>
 									<ul class="icons">
 										<li><a href="https://github.com/chanimores" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
 										<li><a href="https://www.linkedin.com/in/chani-mores-6b3b101ab/" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
 									</ul>
 							</header>
 
-							<!-- Content -->
-								<section>
-									<header class="main">
-										<h1>Generic</h1>
-									</header>
 
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
 
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<header class="main">
+								<h1>Roll20 Stats Parser</h1>
+							</header>
 
-									<hr class="major" />
+							<span class="image right">
+										<img src="images/proj_roll20_stats_percentage.png" alt="" />
+									</span>
 
-									<h2>Interdum sed dapibus</h2>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>This project was made as a <b>Python</b> script that took an <b>HTML</b> roll20 chatlog as input.
+								In my free time, I am part of a Dungeons & Dragons campaign, a TTRPG where a lot of dice are rolled.
+								Being curious, I wanted to see generally the dice rolling statistics for each player, as well as the
+								overall stats of every d20 dice roll.
+								<br/> </p>
 
-									<hr class="major" />
+							<p>Roll20, the website we use to play, allows users to download the chatlog, which contains each player's dice rolls.
+								The python program takes this file and locates every instance of a rolled d20 dice, finding which player rolled it,
+								and keeping track of all these statistics. Once this is done, the results are graphed, both the raw results
+								(as in the number of each dice rolled per person) and the percentage of those dice being a given result.
+							</p>
 
-									<h2>Magna etiam veroeros</h2>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+							<p>To the right is the graph for the total dice rolls graph, showing the percentage of each result.
+								Below are two more examples of player-specific results. </p>
 
-									<hr class="major" />
+							<span class="image left">
+										<img src="images/proj_roll20_Myrios_stats_percentage.png" alt="" />
+									</span>
 
-									<h2>Lorem aliquam bibendum</h2>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+							<span class="image left">
+										<img src="images/proj_roll20_Windwalker_stats_percentage.png" alt="" />
+									</span>
 
-								</section>
+
 
 						</div>
 					</div>
@@ -76,19 +79,18 @@
 							<ul>
 								<li><a href="index.html"> Homepage</a></li>
 
-								<li><br/><a href="#">Digital Art Portfolio</a></li>
-								<li><br/><a href="elements.html">VEX Robotics</a></li>
+								<li><br/><a href="art_portfolio.html">Digital Art Portfolio</a></li>
+								<li><br/><a href="vex_robotics.html">VEX Robotics</a></li>
 
 								<li>
 									<br/>
-									<span class="opener">Projects</span>
+									<span class="opener">Programming Projects</span>
 									<ul>
-										<li><a href="#">Hackathon Meteorite Project</a></li>
-										<li><a href="#">Discord Bots</a></li>
-										<li><a href="#">Roll20 Stats Parser</a></li>
-										<li><a href="#">Molecular Diffusion Simulation</a></li>
-										<li><a href="#">Projects from Harvard's CS50G</a></li>
-										<li><a href="#">?</a></li>
+										<li><a href="meteorite_project.html">Hackathon Meteorite Project</a></li>
+										<li><a href="discord_bot.html">Discord Bots</a></li>
+										<li><a href="roll20_stats.html">Roll20 Stats Parser</a></li>
+										<li><a href="molecular_diffusion.html">Molecular Diffusion Simulation</a></li>
+										<li><a href="cs50g.html">Projects from Harvard's CS50G</a></li>
 									</ul>
 								</li>
 								<li></li>
