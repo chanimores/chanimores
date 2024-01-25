@@ -12,8 +12,8 @@ Thanks for visiting my profile! :jack_o_lantern:
 I'm a fourth-year undergrad student at McGill University studying Computer Science and Physics. I am very interested in topics relating to science, programming, and game development!
 
 - :evergreen_tree: _Interests:_ Science, Game Dev, and Digital Art (2D + 3D)
-- :seedling: _Current Projects:_ my co-op puzzle game and a new project
-- :mushroom: _Skills:_ Java / Python/ C++ / C / C# / JavaScript / Lua / Unity & Blender
+- :seedling: _Current Projects:_ working on Vox Mundi!
+- :mushroom: _Skills:_ C# / Unity / Java / Python/ C++ / C / JavaScript / Lua / Blender
 
 
 Check out some of my projects below!
