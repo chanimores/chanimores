@@ -9,7 +9,7 @@
 
 Thanks for visiting my profile! :jack_o_lantern: 
 
-I'm a fourth-year undergrad student at McGill University studying Computer Science and Physics. I am very interested in topics relating to science, programming, and game development!
+I'm a fifth-year undergrad student at McGill University studying Computer Science and Physics, graduating this December. I am very interested in topics relating to science, programming, and game development!
 
 - :evergreen_tree: _Interests:_ Science, Game Dev, and Digital Art (2D + 3D)
 - :seedling: _Current Projects:_ working on Vox Mundi!
